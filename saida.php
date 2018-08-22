@@ -60,6 +60,7 @@
               Buscar <i class="material-icons left">search</i>
             </button>
 			</div>
+			<h6 id="cabeca" class='left col s12 m6 l6 black-text'>Carrinho de compras<i class="material-icons left">local_grocery_store</i></h6>
 		<div class="row">
 			<div class="input-field col s12 m12 l12">
 			<ul class="collapsible">
@@ -90,9 +91,9 @@
               Voltar <i class="material-icons left">undo</i>
             </button>
 			</div>
-			<div class="input-field col s12 m4 l4 push-l5 push-m5 center-align">
+			<div class="input-field col s12 m4 l5 push-l4 push-m4 center-align">
 			<button class="btn waves-effect waves-light red lighten-2" type="submit" name="action">
-              Salvar <i class="material-icons right">save</i>
+              Finalizar compra <i class="material-icons right">attach_money</i>
             </button>
 			</div>
         </form>
