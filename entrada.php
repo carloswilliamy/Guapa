@@ -14,6 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
   <body>
+  <?php include('include/menu.php'); ?>
   <br>
     <div class="container row">
       <h4 id="cabeca" class='col s12 m12 l12 black-text center'>Cadastro de peças</h4>

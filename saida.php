@@ -14,6 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
   <body>
+  <?php include('include/menu.php'); ?>
   <br>
   <h4 id="cabeca" class='col s6 black-text center'>Saída de peça (s)</h4>
   <br>
