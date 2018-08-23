@@ -33,17 +33,28 @@
     <br>
     <br>
     <br>
-    <br>
 
-  	<div class="row center-align bg-gradient">
+  	<div class="row center-align">
        <!--<a class="waves-effect waves-light btn-large red col s10 m8 l2 push-l2 z-depth-3" href="entrada.php"><i class="material-icons right medium">archive</i>Entrada</a>
        <a class="waves-effect waves-light btn-large col s10 m8 l2 push-l3" href="saida.php"><i class="material-icons right medium">unarchive</i>Saída</a>
   	   <a class="waves-effect waves-light btn-large green col s10 m8 l2 push-l4"><i class="material-icons right medium">insert_drive_file</i>Relatórios</a>-->
+      <div class="col s4 m4 l4">
+          <div class="servico bg-white radius bg-gradient caixa">
+                <a href="#"><img src="img/enter.png" width="100" class="responsive-img"></a>  
+          </div>
+      </div>
 
-        <div class="servico bg-white radius bg-gradient">
-               <a href="#"><img src="img/enter.png" alt="Campanhas publicitárias"></a>  
-        </div>
-    
+      <div class="col s4 m4 l4">
+          <div class="servico bg-white radius bg-gradient caixa">
+                <a href="#"><img src="img/enter.png" width="100" class="responsive-img"></a>  
+          </div>
+      </div>
+
+      <div class="col s4 m4 l4">
+          <div class="servico bg-white radius bg-gradient caixa">
+                <a href="#"><img src="img/enter.png" width="100" class="responsive-img"></a>  
+          </div>
+      </div>
 
     </div>
     
