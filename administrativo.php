@@ -47,14 +47,14 @@
        <!--<a class="waves-effect waves-light btn-large red col s10 m8 l2 push-l2 z-depth-3 caixa" href="entrada.php"><i class="material-icons right medium">archive</i>Entrada</a>
        <a class="waves-effect waves-light btn-large col s10 m8 l2 push-l3" href="saida.php"><i class="material-icons right medium">unarchive</i>Saída</a>
   	   <a class="waves-effect waves-light btn-large green col s10 m8 l2 push-l4"><i class="material-icons right medium">insert_drive_file</i>Relatórios</a>-->
-       <a href="#">
+       <a href="entrada.php">
             <div class="radius caixa red lighten-2 col s2 m2 l2 push-l2 push-m2 push-s2 z-depth-3">
                   <!--<p class="top">ENTRADA</p>-->
                   <img class="responsive-img top" width="50" src="img/enter.png">
                   <p class="font flow-text hide-on-med-only hide-on-med-and-down">ENTRADA</p> 
             </div>
       </a>
-       <a href="#">
+       <a href="saida.php">
             <div class="radius caixa red lighten-2 col s2 m2 l2 push-l3 push-m3 push-s3 z-depth-3">
                   <!--<p class="top">ENTRADA</p>-->
                   <img class="responsive-img top" width="50" src="img/exit.png">

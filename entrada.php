@@ -15,18 +15,20 @@
   </head>
   <body>
   <br>
-  <h4 id="cabeca" class='col s6 black-text center'>Cadastro de peças</h4>
-  <br>
-  <br>
+    <div class="container row">
+      <h4 id="cabeca" class='col s12 m12 l12 black-text center'>Cadastro de peças</h4>
+    </div>
+    <br>
+    <br>
     
     
     
     <div class="container row">
-	  	<h5 id="cabeca" class='left col s12 black-text'>Dados sobre a peça<i class="material-icons left">assignment</i></h5>
+	  	<h4 id="cabeca" class="left col s12 black-text flow-text">Dados sobre a peça<i class="material-icons left">assignment</i></h4>
 		<br>
 		<br>
         <!--Mude aqui o action-->
-        <form class="col s12" action="index.html" method="post">
+        <form class="col s12 m12 l12 left" action="index.html" method="post">
 		<div class="row">
 		<div class="input-field col s12 m12 l12">
             <input type="text" class="validate" id="mae" name="mae" value="" data-error="Por favor, informe o nome da Mãe">
@@ -51,7 +53,7 @@
             <label for="nascimento">Fabricante</label>
           </div>
 		</div>
-		<h5 id="cabeca" class='left col s12 m12 l12 black-text'>Dados financeiros <i class="material-icons left">attach_money</i></h5>
+		<h4 id="cabeca" class='left col s12 m12 l12 black-text flow-text'>Dados financeiros <i class="material-icons left">attach_money</i></h4>
 		<div class="row">
           <div class="input-field col s12 m4 l4">
             <input type="text" class="validate valor" id="endereco" name="" value="" data-error="Informe o endereço">
@@ -70,12 +72,12 @@
 			<br>
 			<br>
       <div class="row">
-        <div class="input-field col s12 m4 l4 pull-l1 pull-m1 center-align">
+        <div class="input-field col s6 m4 l4 pull-l1 pull-m1 center-align">
             <button class="btn waves-effect waves-light red lighten-2" type="button" onclick="history.go(-1);" name="action">
                 Voltar <i class="material-icons left">undo</i>
             </button>
   			</div>
-  			<div class="input-field col s12 m4 l4 push-l5 push-m5 center-align">
+  			<div class="input-field col s6 m4 l4 push-l5 push-m5 center-align">
   			    <button class="btn waves-effect waves-light red lighten-2" type="submit" name="action">
                 Salvar <i class="material-icons right">save</i>
             </button>

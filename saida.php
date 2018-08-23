@@ -106,45 +106,50 @@
 		  <h4>Pesquisar clientes</h4>
 		  <p>
 			<div class="row">
-          <div class="input-field col s12 m12 l12">
-            <input type="text" class="validate" id="nome" name="" value="" data-error="Por favor, informe o nome">
-            <label for="nome">Nome</label>
+          <div class="input-field col s12 m12 l8">
+            <input type="text" class="validate" id="cliente" name="cliente" value="" data-error="Por favor, informe o nome">
+            <label for="cliente">Nome</label>
+          </div>
+          <div class="input-field col s12 m6 l4">
+            <input type="text" class="validate cpf" id="cpf" name="cpf" value="" data-error="CPF">
+            <label for="cpf">CPF</label>
           </div>
 		  <div class="input-field col s12 m6 l6">
             <input type="text" class="validate" id="mae" name="mae" value="" data-error="Por favor, informe o nome da Mãe">
-            <label for="mae">Nome da Mãe</label>
+            <label for="mae">Nome da mãe</label>
           </div>
 		  <div class="input-field col s12 m6 l6">
             <input type="text" class="validate" id="pai" name="pai" value="" data-error="Por favor, informe o nome do Pai">
             <label for="pai">Nome do pai</label>
           </div>
-		  <div class="input-field col s12 m6 l2">
+		  <div class="input-field col s12 m6 l3">
             <input type="date" class="section scrollspy" id="nascimento" name="" value="" data-error="Data nascimento">
             <label for="nascimento">Data de Nasc.</label>
           </div>
-		  <div class="input-field col s12 m6 l4">
-            <input type="text" class="validate cpf" id="cpf" name="" value="" data-error="CPF">
-            <label for="cpf">CPF</label>
-          </div>
-          <div class="input-field col s12 m6 l6">
+		  
+          <div class="input-field col s12 m6 l7">
             <input type="text" class="validate" id="endereco" name="" value="" data-error="Informe o endereço">
             <label for="endereco">Endereço</label>
           </div>
-          <div class="input-field col s4 m2 l1">
+          <div class="input-field col s4 m2 l2">
             <input type="number" class="validate" id="numero" name="" value="" data-error="Nº">
             <label for="numero">Nº</label>
           </div>
-          <div class="input-field col s8 m4 l3">
+          <div class="input-field col s8 m4 l6">
             <input type="text" class="validate" id="bairro" name="" value="" data-error="Informe o bairro">
             <label for="bairro">Bairro</label>
           </div>
-		  <div class="input-field col s12 m6 l2">
+		  <div class="input-field col s12 m6 l6">
             <input type="text" class="validate" id="cidade" name="" value="" data-error="Informe a cidade">
             <label for="cidade">Cidade</label>
           </div>
-		  <div class="input-field col s12 m6 l6">
-            <input type="email" class="validate" id="email" name="email" value="" data-error="E-mail">
-            <label for="email">E-mail</label>
+        <div class="input-field col s12 m6 l5">
+            <input type="text" class="validate" id="telefoneb" name="" value="" data-error="Informe o telefone">
+            <label for="telefoneb">Telefone</label>
+          </div>
+		  <div class="input-field col s12 m6 l7">
+            <input type="email" class="validate" id="emailc" name="emailc" value="" data-error="E-mail">
+            <label for="emailc">E-mail</label>
           </div>
 		</div>
 		  </p>
@@ -159,12 +164,12 @@
 		  <p>
 			<div class="row">
 		<div class="input-field col s12 m12 l12">
-            <input type="text" class="validate" id="mae" name="mae" value="" data-error="Por favor, informe o nome da Mãe">
-            <label for="mae">Nome da peça</label>
+            <input type="text" class="validate" id="peca" name="peca" value="" data-error="Por favor, informe o nome da Mãe">
+            <label for="peca">Nome da peça</label>
           </div>
           <div class="input-field col s12 m12 l12">
-            <textarea id="textarea2" class="materialize-textarea" data-length="500"></textarea>
-            <label for="textarea2">Descrição da peça</label>
+            <textarea id="descricao" class="materialize-textarea" data-length="500"></textarea>
+            <label for="descricao">Descrição da peça</label>
           </div>
 		  <div class="input-field col s12 m4 l3">
 				<select>
@@ -173,16 +178,16 @@
 				<label>Tipo de Peça</label>
           </div>
 		  <div class="input-field col s12 m4 l3">
-            <input type="text" class="validate" id="pai" name="pai" value="" data-error="Por favor, informe o nome do Pai">
-            <label for="pai">Cor predominante</label>
+            <input type="text" class="validate" id="cor" name="cor" value="" data-error="Por favor, informe o nome do Pai">
+            <label for="cor">Cor predominante</label>
           </div>
 		  <div class="input-field col s12 m4 l3">
-            <input type="text" class="section scrollspy" id="nascimento" name="" value="" data-error="Data nascimento">
-            <label for="nascimento">Fabricante</label>
+            <input type="text" class="section scrollspy" id="fabricante" name="" value="" data-error="Fabricante">
+            <label for="fabricante">Fabricante</label>
           </div>
 		  <div class="input-field col s12 m4 l3">
-            <input type="text" class="section scrollspy" id="nascimento" name="" value="" data-error="Data nascimento">
-            <label for="nascimento">Desconto</label>
+            <input type="text" class="section scrollspy" id="desconto" name="" value="" data-error="Desconto">
+            <label for="desconto">Desconto</label>
           </div>
 		</div>
 		  </p>
