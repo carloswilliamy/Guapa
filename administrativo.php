@@ -14,6 +14,7 @@
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" type="text/css" href="css/custom.css">
   <link rel="icon" href="img/logo2.png">
   
 </head>
@@ -34,19 +35,14 @@
     <br>
     <br>
 
-  	<div class="row center-align">
+  	<div class="row center-align bg-gradient">
        <!--<a class="waves-effect waves-light btn-large red col s10 m8 l2 push-l2 z-depth-3" href="entrada.php"><i class="material-icons right medium">archive</i>Entrada</a>
        <a class="waves-effect waves-light btn-large col s10 m8 l2 push-l3" href="saida.php"><i class="material-icons right medium">unarchive</i>Saída</a>
   	   <a class="waves-effect waves-light btn-large green col s10 m8 l2 push-l4"><i class="material-icons right medium">insert_drive_file</i>Relatórios</a>-->
 
-      <div class="card">
-        
-        <div class="">
-          
-          <p><a class="card-content waves-effect waves-light btn-large red col s10 m8 l2 push-l2 z-depth-3" href="entrada.php"><i class="material-icons right medium">archive</i>Entrada</a></p>
+        <div class="servico bg-white radius bg-gradient">
+               <a href="#"><img src="img/enter.png" alt="Campanhas publicitárias"></a>  
         </div>
-        
-      </div>
     
 
     </div>
