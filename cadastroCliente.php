@@ -12,12 +12,12 @@
 	<link rel="icon" href="img/logo2.png">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  </head>
-  <body>
-  <br>
-  <h4 id="cabeca" class='col s6 black-text center'>Cadastro de Clientes</h4>
-  <br>
-  <br>
+    </head>
+    <body>
+      <br>
+      <h4 id="cabeca" class='col s6 black-text center'>Cadastro de Clientes</h4>
+      <br>
+      <br>
     
     
     

@@ -1,4 +1,4 @@
- <footer class="page-footer">
+<footer class="page-footer bottom red lighten-2">
   <div class="container">
 	<div class="row">
 	  <div class="col l12 m12 s12 center-align">

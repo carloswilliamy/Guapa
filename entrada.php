@@ -69,22 +69,25 @@
 		</div>
 			<br>
 			<br>
-            <div class="input-field col s12 m4 l4 pull-l1 pull-m1 center-align">
+      <div class="row">
+        <div class="input-field col s12 m4 l4 pull-l1 pull-m1 center-align">
             <button class="btn waves-effect waves-light red lighten-2" type="button" onclick="history.go(-1);" name="action">
-              Voltar <i class="material-icons left">undo</i>
+                Voltar <i class="material-icons left">undo</i>
             </button>
-			</div>
-			<div class="input-field col s12 m4 l4 push-l5 push-m5 center-align">
-			<button class="btn waves-effect waves-light red lighten-2" type="submit" name="action">
-              Salvar <i class="material-icons right">save</i>
+  			</div>
+  			<div class="input-field col s12 m4 l4 push-l5 push-m5 center-align">
+  			    <button class="btn waves-effect waves-light red lighten-2" type="submit" name="action">
+                Salvar <i class="material-icons right">save</i>
             </button>
+  			</div>
+      </div>
+      </form>
 			</div>
-        </form>
-				</div>
-	<br>
-	<br>
-	<br>
-   <?php  include('include/rodape.php'); ?>
+	
+    
+      <?php  include('include/rodape.php'); ?>
+   
+   
 
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>

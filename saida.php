@@ -191,7 +191,7 @@
 		  <a href="#!" class="modal-close btn waves-effect waves-light red lighten-2">Buscar<i class="material-icons left">search</i></a>
 		</div>
 	  </div>
-   <?php  include('include/rodape.php'); ?>
+    <?php  include('include/rodape.php'); ?>
 
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
