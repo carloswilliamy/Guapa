@@ -25,7 +25,7 @@
     
     
     <div class="container row">
-	  	<h4 id="cabeca" class="left col s12 black-text flow-text">Dados sobre a peça<i class="material-icons left">assignment</i></h4>
+	  	<h4 id="cabeca" class="left col s12 black-text flow-text">Dados sobre a peça<i class="fas fa-tshirt fa-sm left"></i></h4>
 		<br>
 		<br>
         <!--Mude aqui o action-->
@@ -54,7 +54,7 @@
             <label for="nascimento">Fabricante</label>
           </div>
 		</div>
-		<h4 id="cabeca" class='left col s12 m12 l12 black-text flow-text'>Dados financeiros <i class="material-icons left">attach_money</i></h4>
+		<h4 id="cabeca" class='left col s12 m12 l12 black-text flow-text'>Dados financeiros <i class="fas fa-dollar-sign fa-sm left"></i></h4>
 		<div class="row">
           <div class="input-field col s12 m4 l4">
             <input type="text" class="validate valor" id="endereco" name="" value="" data-error="Informe o endereço">
@@ -75,12 +75,12 @@
       <div class="row">
         <div class="input-field col s6 m4 l4 pull-l1 pull-m1 center-align">
             <button class="btn waves-effect waves-light red lighten-2" type="button" onclick="history.go(-1);" name="action">
-                Voltar <i class="material-icons left">undo</i>
+                Voltar <i class="fas fa-chevron-left fa-sm left"></i>
             </button>
   			</div>
   			<div class="input-field col s6 m4 l4 push-l5 push-m5 center-align">
   			    <button class="btn waves-effect waves-light red lighten-2" type="submit" name="action">
-                Salvar <i class="material-icons right">save</i>
+                Salvar <i class="fas fa-save fa-sm right"></i>
             </button>
   			</div>
       </div>

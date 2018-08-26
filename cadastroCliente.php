@@ -23,7 +23,7 @@
     
     
     <div class="container row">
-	  	<h5 id="cabeca" class='left col s12 black-text'>Dados Pessoais<i class="material-icons left">person</i></h5>
+	  	<h5 id="cabeca" class='left col s12 black-text'>Dados Pessoais<i class="far fa-user fa-me left"></i></h5>
 		<br>
 		<br>
         <!--Mude aqui o action-->
@@ -50,7 +50,7 @@
             <label for="cpf">CPF</label>
           </div>
 		</div>
-		<h5 id="cabeca" class='left col s12 m12 l12 black-text'>Dados de contato<i class="material-icons left">contacts</i></h5>
+		<h5 id="cabeca" class='left col s12 m12 l12 black-text'>Dados de contato<i class="fas fa-clipboard-list fa-me left"></i></h5>
 		<div class="row">
           <div class="input-field col s12 m6 l6">
             <input type="text" class="validate" id="endereco" name="" value="" data-error="Informe o endereço">
@@ -86,12 +86,12 @@
 			<br>
 			<div class="input-field col s12 m4 l4 pull-l1 pull-m1 center-align">
             <button class="btn waves-effect waves-light red lighten-2" type="button" onclick="history.go(-1);" name="action">
-              Voltar <i class="material-icons left">undo</i>
+              Voltar <i class="fas fa-chevron-left fa-me left"></i>
             </button>
 			</div>
 			<div class="input-field col s12 m4 l4 push-l5 push-m5 center-align">
 			<button class="btn waves-effect waves-light red lighten-2" type="submit" name="action">
-              Salvar <i class="material-icons right">save</i>
+              Salvar <i class="fas fa-save fa-me right"></i>
             </button>
 			</div>
         </form>
@@ -100,6 +100,8 @@
 	<br>
 	<br>
    <?php  include('include/rodape.php'); ?>
+
+   
 
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>

@@ -23,10 +23,10 @@
     
     
     <div class="container row">
-	  	<h5 id="cabeca" class='left col s12 m6 l6 black-text'>Pesquisar cliente<i class="material-icons left">people</i></h5>
+	  	<h5 id="cabeca" class='left col s12 m6 l6 black-text'>Pesquisar cliente<i class="fas fa-users fa-sm left"></i></h5>
 		<div class="input-field col s12 m6 l6 push-l4 push-m3 right">
             <button class="btn waves-effect waves-light red lighten-2 modal-trigger" href="#modal1" type="button"  name="action">
-              Buscar <i class="material-icons left">search</i>
+              Buscar <i class="fas fa-search fa-sm left"></i>
             </button>
 			</div>
 		<br>
@@ -55,29 +55,29 @@
             <label for="email">E-mail</label>
           </div>
 		</div>
-		<h5 id="cabeca" class='left col s12 m6 l6 black-text'>Pesquisar peça (s)<i class="material-icons left">assignment</i></h5>
+		<h5 id="cabeca" class='left col s12 m6 l6 black-text'>Pesquisar peça (s)<i class="fas fa-search fa-sm left"></i></h5>
 		<div class="input-field col s12 m6 l6 push-l4 push-m3 right">
             <button class="btn waves-effect waves-light red lighten-2 modal-trigger" href="#modal2"" type="button" name="action">
-              Buscar <i class="material-icons left">search</i>
+              Buscar <i class="fas fa-search fa-sm left"></i>
             </button>
 			</div>
-			<h6 id="cabeca" class='left col s12 m6 l6 black-text'>Carrinho de compras<i class="material-icons left">local_grocery_store</i></h6>
+			<h6 id="cabeca" class='left col s12 m6 l6 black-text'>Carrinho de compras<i class="fas fa-shopping-cart fa-lg left"></i></h6>
 		<div class="row">
 			<div class="input-field col s12 m12 l12">
 			<ul class="collapsible">
 			<li>
-			  <div class="collapsible-header"><i class="material-icons">label_outline</i>Camiseta Masculina Skyler <span class="badge">Total: R$ 50,00</span></div>
+			  <div class="collapsible-header"><i class="fas fa-tshirt fa-sm left"></i>Camiseta Masculina Skyler <span class="badge">Total: R$ 50,00</span></div>
 			  <div class="collapsible-body"><span><b>Item:</b> Camiseta Masculina Skyler<br><b>Descrição:</b> Camiseta Masculina de cor preta, tamanho M<br><b>Valor unitário:</b> R$ 25,00<br><b>Desconto:</b> R$ 0,00<br><b>Quantidade:</b> 2<br><b>Total:</b> R$ 50,00</span>
 			  <button class="btn-flat right" type="button" name="action">
-              Remover <i class="material-icons left">clear</i>
+              Remover <i class="fas fa-trash-alt fa-sm left"></i>
             </button>
 			  </div>
 			</li>
 			<li>
-			  <div class="collapsible-header"><i class="material-icons">label_outline</i>Camiseta Feminina Polo <span class="badge">Total: R$ 30,00</span></div>
+			  <div class="collapsible-header"><i class="fas fa-tshirt fa-sm left"></i>Camiseta Feminina Polo <span class="badge">Total: R$ 30,00</span></div>
 			  <div class="collapsible-body"><span><b>Item:</b> Camiseta Masculina Skyler<br><b>Descrição:</b> Camiseta Feminia de cor Branca, tamanho P<br><b>Valor unitário:</b> R$ 30,00<br><b>Desconto:</b> R$ 0,00<br><b>Quantidade:</b> 1<br><b>Total:</b> R$ 30,00</span>
 			    <button class="btn-flat right" type="button" name="action">
-              Remover <i class="material-icons left">clear</i>
+              Remover <i class="fas fa-trash-alt fa-sm left"></i>
             </button></div>
 			</li>
 			</ul>
@@ -89,12 +89,12 @@
 			<br>
             <div class="input-field col s12 m4 l4 pull-l1 pull-m1 center-align">
             <button class="btn waves-effect waves-light red lighten-2" type="button" onclick="history.go(-1);" name="action">
-              Voltar <i class="material-icons left">undo</i>
+              Voltar <i class="fas fa-chevron-left fa-sm left"></i>
             </button>
 			</div>
 			<div class="input-field col s12 m4 l5 push-l4 push-m4 center-align">
 			<button class="btn waves-effect waves-light red lighten-2" type="submit" name="action">
-              Finalizar compra <i class="material-icons right">attach_money</i>
+              Finalizar compra <i class="fas fa-dollar-sign fa-sm right"></i>
             </button>
 			</div>
         </form>
@@ -156,7 +156,7 @@
 		  </p>
 		</div>
 		<div class="modal-footer">
-		  <a href="#!" class="modal-close btn waves-effect waves-light red lighten-2">Buscar <i class="material-icons left">search</i></a>
+		  <a href="#!" class="modal-close btn waves-effect waves-light red lighten-2">Buscar <i class="fas fa-search fa-sm left"></i></a>
 		</div>
 	  </div>
 	  <div id="modal2" class="modal">
@@ -194,7 +194,7 @@
 		  </p>
 		</div>
 		<div class="modal-footer">
-		  <a href="#!" class="modal-close btn waves-effect waves-light red lighten-2">Buscar<i class="material-icons left">search</i></a>
+		  <a href="#!" class="modal-close btn waves-effect waves-light red lighten-2">Buscar<i class="fas fa-search fa-sm left"></i></a>
 		</div>
 	  </div>
     <?php  include('include/rodape.php'); ?>
