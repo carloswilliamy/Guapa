@@ -15,29 +15,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
 <body onload="$('#usuario').select();">
-    <br><br><img class='responsive-img col s12 m6 l2' width="150" src="img/logo.png">
-    <div class="container">
-    <form name="login" class="col s12" action="DAO.php" method="POST">
-      <div class="row col s12 m2 l2">
-        <div class="input-field col s12">
-          <i class="material-icons prefix">person_outline</i>
-          <input id="icon_prefix" type="text" name="usuario"class="validate">
-          <label for="icon_prefix">Nome de usuário</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <i class="material-icons prefix">lock_outline</i>
-          <input id="icon_prefix2" type="password" name="senha" class="validate">
-          <label for="icon_prefix2">Senha</label>
-        </div>
-      </div>
-      <button class="btn waves-effect waves-light red lighten-2 right col s12 m6 l2" type="submit" name="action" onclick="return loginTemp()">Entrar
-        <i class="material-icons right">send</i>
-      </button>
-      <a class='waves-effect waves-teal btn-flat left col s12 m6 l2' href="cadastro.php">Esqueceu sua senha?</a>
-    </form>
-  </div>
+	<div class="container col l12 center-align">
+	  	<div class="center-align"><img class='responsive-img' width="150" src="img/logo.png"></div>
+		<br>
+		<br>
+        <!--Mude aqui o action-->
+			<form action="index.html" method="post">
+				<div class="row center">
+					<div class="input-field col l6">
+						<input type="text" class="validate" id="usuario" name="usuario" value="" data-error="Por favor, informe o nome de usuário">
+						<label for="usuario">Nome de usuário</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col l6">
+						<input type="text" class="validate" id="senha" name="senha" value="" data-error="Por favor, informe a senha">
+						<label for="senha">Senha</label>
+					</div>
+				<br>
+				<br>
+				</div>
+				<div class="row col l6">
+					<button class="btn-flat left" type="button" onclick="" name="action">
+					  Esqueceu sua senha?
+					</button>
+					<button class="btn waves-effect waves-light red lighten-2 right" type="submit" name="action">
+					  Entrar <i class="material-icons right">send</i>
+					</button>
+				</div>
+			</form>
+	</div>
   <br>
   <br>
   <br>
