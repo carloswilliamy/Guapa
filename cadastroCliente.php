@@ -23,7 +23,7 @@
     
     
     <div class="container row">
-	  	<h5 id="cabeca" class='left col s12 black-text'>Dados Pessoais<i class="far fa-user fa-me left"></i></h5>
+	  	<h5 id="cabeca" class='left col s12 black-text'>Dados Pessoais<i class="fas fa-user fa-me left"></i></h5>
 		<br>
 		<br>
         <!--Mude aqui o action-->
@@ -41,11 +41,11 @@
             <input type="text" class="validate" id="pai" name="pai" value="" data-error="Por favor, informe o nome do Pai">
             <label for="pai">Nome do pai</label>
           </div>
-		  <div class="input-field col s12 m6 l2">
-            <input type="date" class="section scrollspy" id="nascimento" name="" value="" data-error="Data nascimento">
+		  <div class="input-field col s12 m6 l3">
+            <input type="text" class="datepicker" id="dataPesquisa">
             <label for="nascimento">Data de Nasc.</label>
           </div>
-		  <div class="input-field col s12 m6 l4">
+		  <div class="input-field col s12 m6 l3">
             <input type="text" class="validate cpf" id="cpf" name="" value="" data-error="CPF">
             <label for="cpf">CPF</label>
           </div>
@@ -101,7 +101,7 @@
 	<br>
    <?php  include('include/rodape.php'); ?>
 
-   
+
 
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
@@ -110,5 +110,6 @@
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/materialize.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/config.js"></script>
   </body>
 </html>

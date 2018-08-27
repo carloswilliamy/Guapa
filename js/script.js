@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	var elems = document.querySelectorAll('select');
 	var elems = document.querySelectorAll('.sidenav');
     var elems = document.querySelectorAll('.modal');
+    var elems = document.querySelectorAll('.datepicker');
     //var instances = M.Collapsible.init(elems, options);
   });
   
@@ -58,7 +59,6 @@ function verificarVazio(campo){
 	}
 	return false;
 }
-
 $(document).ready(function(){
     $('.modal').modal();
 	$('input#input_text, textarea#textarea2').characterCounter();
@@ -66,6 +66,7 @@ $(document).ready(function(){
 	$('.sidenav').sidenav();
 	$(".dropdown-trigger").dropdown();
 	$('.collapsible').collapsible();
+	$('.datepicker').datepicker();
    $(document).on("focus", ".tel", function(){
       $.mask.definitions['~']='[+-]';
 	//Inicio Mascara Telefone

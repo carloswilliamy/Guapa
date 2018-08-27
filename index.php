@@ -6,6 +6,7 @@
     <!--Import Google Icon Font-->
     
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/all.css">
     <!--Import materialize.css-->
     
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
@@ -45,7 +46,7 @@
 					</div>
 					<div class="input-field col s12 m5 l4 pull-m1 pull-l2 right">		
 						<button class="btn waves-effect waves-light red lighten-2 center s12 m12 l12" type="submit" name="action">
-						  Entrar <i class="material-icons right">send</i>
+						  Entrar <i class="fas fa-sign-in-alt fa-lg"></i>
 						</button>
 					</div>
 				</div>

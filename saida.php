@@ -61,7 +61,7 @@
               Buscar <i class="fas fa-search fa-sm left"></i>
             </button>
 			</div>
-			<h6 id="cabeca" class='left col s12 m6 l6 black-text'>Carrinho de compras<i class="fas fa-shopping-cart fa-lg left"></i></h6>
+			<h6 id="cabeca" class='left col s12 m6 l6 black-text'>Carrinho de compras<i class="fas fa-shopping-cart fa-me left"></i></h6>
 		<div class="row">
 			<div class="input-field col s12 m12 l12">
 			<ul class="collapsible">
