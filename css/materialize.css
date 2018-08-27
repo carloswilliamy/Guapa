@@ -10,7 +10,6 @@
 .materialize-red-text {
   color: #e51c23 !important;
 }
-
 .materialize-red.lighten-5 {
   background-color: #fdeaeb !important;
 }
@@ -2610,7 +2609,10 @@ a {
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }
-
+.center{
+	margin: 0 auto;
+	display: block;
+}
 .valign-wrapper {
   display: -webkit-box;
   display: -webkit-flex;

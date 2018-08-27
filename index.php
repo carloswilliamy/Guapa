@@ -12,9 +12,8 @@
   <link rel="icon" href="img/logo2.png">
 </head>
 <body onload="$('#usuario').select();">
-      <br><br><img id="logo2" class='center' src="img/logo.png">
-    <!--<h1 id="titulo2" class="center azulColor">Eletrocardiograma<i class="material-icons prefix">show_chart</i></h1>-->
-    <div class="login row">
+    <br><br><img id="logo2" class='center responsive-img' width="150" src="img/logo.png">
+    <div class="container col s4 m2 l2">
     <form name="login" class="col s12" action="DAO.php" method="POST">
       <div class="row">
         <div class="input-field col s12">
@@ -30,10 +29,10 @@
           <label for="icon_prefix2">Senha</label>
         </div>
       </div>
-      <button class="azulBack right btn waves-effect waves-light" type="submit" name="action" onclick="return loginTemp()">Entrar
+      <button class="red right btn waves-effect waves-light" type="submit" name="action" onclick="return loginTemp()">Entrar
         <i class="material-icons right">send</i>
       </button>
-      <h1 id="C1"><a id="C2" class='azulColor'href="cadastro.php">Esqueceu sua senha?</a></h1>
+      <a id="C2" class='azulColor'href="cadastro.php">Esqueceu sua senha?</a>
     </form>
   </div>
   <br>
