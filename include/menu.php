@@ -39,8 +39,8 @@
             <a class="collapsible-header" style="outline: none;" id="arrow"><i class="fas fa-file-alt fa-lg left"></i>Relatórios<i class="fas fa-sort-down fa-sm right"></i></a>
             <div class="collapsible-body">
               <ul>
-                <li><a href="#!" class="red-text lighten-2">Financeiro</a></li>
-                <li><a href="#!" class="red-text lighten-2">Aniversariantes</a></li>
+                <li><a href="#!" class="red-text">Financeiro</a></li>
+                <li><a href="#!" class="red-text">Aniversariantes</a></li>
               </ul>
             </div>
           </li>

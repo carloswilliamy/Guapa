@@ -8334,14 +8334,14 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
   height: 16px;
   width: 16px;
   margin: 0 12px;
-  background-color: #e0e0e0;
+  background-color: rgb(238, 110, 115);
   -webkit-transition: background-color .3s;
   transition: background-color .3s;
   border-radius: 50%;
 }
 
 .slider .indicators .indicator-item.active {
-  background-color: #4CAF50;
+  background-color: rgb(238, 110, 115);
 }
 
 .carousel {
@@ -8419,17 +8419,17 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
   display: inline-block;
   position: relative;
   cursor: pointer;
-  height: 8px;
-  width: 8px;
+  height: 12px;
+  width: 12px;
   margin: 24px 4px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgb(238, 110, 115);
   -webkit-transition: background-color .3s;
   transition: background-color .3s;
   border-radius: 50%;
 }
 
 .carousel .indicators .indicator-item.active {
-  background-color: #fff;
+  background-color: rgba(231, 76, 60,0.5);
 }
 
 .carousel.scrolling .carousel-item .materialboxed,
@@ -8690,10 +8690,11 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
   -webkit-flex: 1 auto;
       -ms-flex: 1 auto;
           flex: 1 auto;
-  background-color: #26a69a;
+  background-color: #ee6e73;
   color: #fff;
   padding: 20px 22px;
   font-weight: 500;
+  outline: :none;
 }
 
 .datepicker-date-display .year-text {

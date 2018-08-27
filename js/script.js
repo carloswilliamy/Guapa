@@ -4,9 +4,17 @@ document.addEventListener('DOMContentLoaded', function() {
 	var elems = document.querySelectorAll('.sidenav');
     var elems = document.querySelectorAll('.modal');
     var elems = document.querySelectorAll('.datepicker');
+    var elems = document.querySelectorAll('.carousel');
+    var instance = M.Carousel.init({
+	    fullWidth: true,
+	    indicators: true
+  	});
     //var instances = M.Collapsible.init(elems, options);
   });
   
+
+  // Or with jQuery
+
 
 function validar(){
 	var nomeP = $("#nomeP").val();
@@ -67,6 +75,11 @@ $(document).ready(function(){
 	$(".dropdown-trigger").dropdown();
 	$('.collapsible').collapsible();
 	$('.datepicker').datepicker();
+	$('.carousel').carousel();
+	$('.carousel.carousel-slider').carousel({
+    fullWidth: true,
+    indicators: true
+  });
    $(document).on("focus", ".tel", function(){
       $.mask.definitions['~']='[+-]';
 	//Inicio Mascara Telefone

@@ -39,7 +39,7 @@
           </div>
 		  <div class="input-field col s12 m6 l6">
             <input type="text" class="validate" id="pai" name="pai" value="" data-error="Por favor, informe o nome do Pai">
-            <label for="pai">Nome do pai</label>
+            <label for="pai">Nome do Pai</label>
           </div>
 		  <div class="input-field col s12 m6 l3">
             <input type="text" class="datepicker" id="dataPesquisa">
@@ -110,6 +110,5 @@
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/materialize.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
-    <script type="text/javascript" src="js/config.js"></script>
   </body>
 </html>

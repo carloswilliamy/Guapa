@@ -16,16 +16,11 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="stylesheet" type="text/css" href="css/custom.css">
   <link rel="icon" href="img/logo2.png">
-  <style type="text/css">
-    .pe{
-       position:absolute;
-    bottom:0;
-    width:100%;
-    }
-  </style>
+
 </head>
 <body>
 	<?php include('include/menu.php'); ?>
+  
   <br>
   <br>
   <br>
@@ -33,15 +28,22 @@
   <br>
   <br>
   <br>
-  <div class="container">
-  <div class="row col s12 center-align">
-        <img class="responsive-img" width="600" style="opacity: 0.1" src="img/logo.png">
-      </div>
-      </div>
-    
-    <div class="pe" ">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
       <?php include('include/rodape.php');?>
-    </div>
     
 
     
