@@ -161,41 +161,78 @@
 	  </div>
 	  <div id="modal2" class="modal">
 		<div class="modal-content">
-		  <h4>Pesquisar peças</h4>
-		  <p>
+      <div class="row">
+        <div class="col s12 m12 l12 left">
+		      <h4 class="text">Pesquisar peças</h4>
+      </div>
+    </div>
+		  
 			<div class="row">
-		<div class="input-field col s12 m12 l12">
-            <input type="text" class="validate" id="peca" name="peca" value="" data-error="Por favor, informe o nome da Mãe">
-            <label for="peca">Nome da peça</label>
+    		<div class="input-field col s12 m12 l12">
+                <input type="text" class="validate" id="peca" name="peca" value="" data-error="Por favor, informe o nome da Mãe">
+                <label for="peca">Nome da peça</label>
+              </div>
+              <div class="input-field col s12 m12 l12">
+                <textarea id="descricao" class="materialize-textarea" data-length="500"></textarea>
+                <label for="descricao">Descrição da peça</label>
+              </div>
+    		  <div class="input-field col s12 m4 l3">
+    				<select>
+    				  <option value="" disabled selected>Escolha o tipo</option>
+    				</select>
+    				<label>Tipo de Peça</label>
+              </div>
+    		  <div class="input-field col s12 m4 l3">
+                <input type="text" class="validate" id="cor" name="cor" value="" data-error="Por favor, informe o nome do Pai">
+                <label for="cor">Cor predominante</label>
           </div>
-          <div class="input-field col s12 m12 l12">
-            <textarea id="descricao" class="materialize-textarea" data-length="500"></textarea>
-            <label for="descricao">Descrição da peça</label>
+    		  <div class="input-field col s12 m4 l3">
+                <input type="text" class="section scrollspy" id="fabricante" name="" value="" data-error="Fabricante">
+                <label for="fabricante">Fabricante</label>
           </div>
-		  <div class="input-field col s12 m4 l3">
-				<select>
-				  <option value="" disabled selected>Escolha o tipo</option>
-				</select>
-				<label>Tipo de Peça</label>
+    		  <div class="input-field col s12 m4 l3">
+                <input type="text" class="section scrollspy" id="desconto" name="" value="" data-error="Desconto">
+                <label for="desconto">Desconto</label>
           </div>
-		  <div class="input-field col s12 m4 l3">
-            <input type="text" class="validate" id="cor" name="cor" value="" data-error="Por favor, informe o nome do Pai">
-            <label for="cor">Cor predominante</label>
+          <div class="col s12 m12 l12 left">
+           <h5 class="black-text">Forma de pagamento</h5>
           </div>
-		  <div class="input-field col s12 m4 l3">
-            <input type="text" class="section scrollspy" id="fabricante" name="" value="" data-error="Fabricante">
-            <label for="fabricante">Fabricante</label>
+          <div class="input-field">
+            <!--<p class="col s12 m6 l3">
+              <label>
+                <input class="with-gap" name="group1" type="radio" checked />
+                <span>À vista</span>
+              </label>
+            </p>
+            <p class="col s12 m6 l3">
+              <label>
+                <input class="with-gap" name="group1" type="radio" />
+                <span>A prazo</span>
+              </label>
+            </p>
+            <p class="col s12 m6 l3">
+              <label>
+                <input class="with-gap" name="group1" type="radio"  />
+                <span>Cartão Débito</span>
+              </label>
+            </p>-->
+            <p class="col s12 m6 l3">
+              <label>
+                <input class="with-gap" type="radio" />
+                <span>Cartão Crédito</span>
+              </label>
+            </p>
+            
           </div>
-		  <div class="input-field col s12 m4 l3">
-            <input type="text" class="section scrollspy" id="desconto" name="" value="" data-error="Desconto">
-            <label for="desconto">Desconto</label>
-          </div>
+                    
 		</div>
-		  </p>
+      
+      
+
 		</div>
-		<div class="modal-footer">
-		  <a href="#!" class="modal-close btn waves-effect waves-light red lighten-2">Buscar<i class="fas fa-search fa-sm left"></i></a>
-		</div>
+  		<div class="modal-footer">
+  		  <a href="#!" class="modal-close btn waves-effect waves-light red lighten-2">Buscar<i class="fas fa-search fa-sm left"></i></a>
+  		</div>
 	  </div>
     <?php  include('include/rodape.php'); ?>
 

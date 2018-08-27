@@ -80,6 +80,7 @@ $(document).ready(function(){
     fullWidth: true,
     indicators: true
   });
+	
    $(document).on("focus", ".tel", function(){
       $.mask.definitions['~']='[+-]';
 	//Inicio Mascara Telefone
