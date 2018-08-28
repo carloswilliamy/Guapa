@@ -9,7 +9,6 @@
     <!--Import materialize.css-->
     
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <link type="text/css" rel="stylesheet" href="css/style.css">
 	<link rel="icon" href="img/logo2.png">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -29,7 +28,7 @@
         <!--Mude aqui o action-->
         <form class="col s12" action="index.html" method="post">
 		<div class="row">
-          <div class="input-field col s12">
+          <div class="input-field col s12 m12 l12">
             <input type="text" class="validate" id="nome" name="" value="" data-error="Por favor, informe o nome">
             <label for="nome">Nome</label>
           </div>
@@ -84,12 +83,16 @@
 		</div>
 			<br>
 			<br>
-            <button class="btn waves-effect waves-light red lighten-2 left" type="button" onclick="history.go(-1);" name="action">
+			<div class="input-field col s12 m4 l4 pull-l1 pull-m1 center-align">
+            <button class="btn waves-effect waves-light red lighten-2" type="button" onclick="history.go(-1);" name="action">
               Voltar <i class="material-icons left">undo</i>
             </button>
-			<button class="btn waves-effect waves-light red lighten-2 right" type="submit" name="action">
+			</div>
+			<div class="input-field col s12 m4 l4 push-l5 push-m5 center-align">
+			<button class="btn waves-effect waves-light red lighten-2" type="submit" name="action">
               Salvar <i class="material-icons right">save</i>
             </button>
+			</div>
         </form>
 				</div>
 	<br>
@@ -104,11 +107,5 @@
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/materialize.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
-    <script>
-      $(document).ready(function() {
-        $('select').material_select();
-      });
-
-    </script>
   </body>
 </html>

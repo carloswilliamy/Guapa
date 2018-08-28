@@ -7,7 +7,7 @@
 	</div>
   </div>
   <div class="footer-copyright">
-	<div class="container">
+	<div class="container col s12 m8 l4">
 	©2018 Carlos&Karlos
 	</div>
   </div>
