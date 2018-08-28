@@ -64,7 +64,7 @@
 			<div class="input-field col s12 m12 l12">
 			<ul class="collapsible">
 			<li>
-			  <div class="collapsible-header"><i class="material-icons">filter_drama</i>Camiseta Masculina Skyler <span class="badge">Total: R$ 50,00</span></div>
+			  <div class="collapsible-header"><i class="material-icons">label_outline</i>Camiseta Masculina Skyler <span class="badge">Total: R$ 50,00</span></div>
 			  <div class="collapsible-body"><span><b>Item:</b> Camiseta Masculina Skyler<br><b>Descrição:</b> Camiseta Masculina de cor preta, tamanho M<br><b>Valor unitário:</b> R$ 25,00<br><b>Desconto:</b> R$ 0,00<br><b>Quantidade:</b> 2<br><b>Total:</b> R$ 50,00</span>
 			  <button class="btn-flat right" type="button" name="action">
               Remover <i class="material-icons left">clear</i>
@@ -72,7 +72,7 @@
 			  </div>
 			</li>
 			<li>
-			  <div class="collapsible-header"><i class="material-icons">filter_drama</i>Camiseta Feminina Polo <span class="badge">Total: R$ 30,00</span></div>
+			  <div class="collapsible-header"><i class="material-icons">label_outline</i>Camiseta Feminina Polo <span class="badge">Total: R$ 30,00</span></div>
 			  <div class="collapsible-body"><span><b>Item:</b> Camiseta Masculina Skyler<br><b>Descrição:</b> Camiseta Feminia de cor Branca, tamanho P<br><b>Valor unitário:</b> R$ 30,00<br><b>Desconto:</b> R$ 0,00<br><b>Quantidade:</b> 1<br><b>Total:</b> R$ 30,00</span>
 			    <button class="btn-flat right" type="button" name="action">
               Remover <i class="material-icons left">clear</i>
