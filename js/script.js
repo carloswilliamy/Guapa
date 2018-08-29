@@ -17,11 +17,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 function validar(){
-	var nomeP = $("#nomeP").val();
-	var dtNasc = $("#dtNasc").val();
-	var sexo = $("#sexo").val();
-	var cns = $("#cns").val();
-    if (verificarVazio(nomeP) || verificarVazio(dtNasc) || verificarVazio(sexo) || verificarVazio(cns)){
+	var nomePeca = $("#nomePeca").val();
+	var descPeca = $("#descPeca").val();
+	var tipoPeca = $("#tipoPeca").val();
+	var cor = $("#cor").val();
+	var fabricante = $("#fabricante").val();
+	var compra = $("#compra").val();
+	var revenda = $("#revenda").val();
+	var qtde = $("#qtde").val();
+    if (verificarVazio(nomePeca) || verificarVazio(descPeca) || verificarVazio(tipoPeca) || verificarVazio(cor) || verificarVazio(fabricante) || verificarVazio(compra) || verificarVazio(revenda) || verificarVazio(qtde)){
         alert("Preencha todos os campos!");
 		return false;
     }else if(fuValidaCNS(cns)){
@@ -80,7 +84,35 @@ $(document).ready(function(){
     fullWidth: true,
     indicators: true
   });
-	
+   $(document).on("focus", ".money", function(){
+      $.mask.definitions['~']='[+-]';
+	//Inicio Mascara Telefone
+	$('.money').focusout(function(){
+		$(".money").mask('#.##0,00', {
+		  reverse: true
+		});
+
+		//$('.money').on('blur', calculateValue);
+
+		function calculateValue() {
+		  var vd_ga = $('.money').val().replace(',', '.');
+		  ///var pvm_ga = $('#pvm_ga').val();
+
+		  $('.money').val(convertToCurrency(vd_ga));
+		  //$('#eam_ga').val(convertToCurrency(vd_ga * pvm_ga));
+		}
+
+		function convertToCurrency(value) {
+		  return value.toLocaleString("pt-BR", {
+			style: "currency",
+			currency: "BRL",
+			minimumFractionDigits: 2
+		  })
+		}
+	}).trigger('focusout');
+   });
+   
+   
    $(document).on("focus", ".tel", function(){
       $.mask.definitions['~']='[+-]';
 	//Inicio Mascara Telefone
