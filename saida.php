@@ -112,8 +112,8 @@
             <label for="cliente">Nome</label>
           </div>
           <div class="input-field col s12 m6 l4">
-            <input type="text" class="validate cpf" id="cpf" name="cpf" value="" data-error="CPF">
-            <label for="cpf">CPF</label>
+            <input type="text" class="validate cpf" id="cpfp" name="cpfp" value="" data-error="CPF">
+            <label for="cpfp">CPF</label>
           </div>
 		  <div class="input-field col s12 m6 l6">
             <input type="text" class="validate" id="mae" name="mae" value="" data-error="Por favor, informe o nome da Mãe">
