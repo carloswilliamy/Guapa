@@ -112,8 +112,8 @@
             <label for="cliente">Nome</label>
           </div>
           <div class="input-field col s12 m6 l4">
-            <input type="text" class="validate cpf" id="cpfp" name="cpfp" value="" data-error="CPF">
-            <label for="cpfp">CPF</label>
+            <input type="text" class="validate cpf" id="cpf" name="cpf" value="" data-error="CPF">
+            <label for="cpf">CPF</label>
           </div>
 		  <div class="input-field col s12 m6 l6">
             <input type="text" class="validate" id="mae" name="mae" value="" data-error="Por favor, informe o nome da Mãe">
@@ -127,31 +127,6 @@
             <input type="date" class="section scrollspy" id="nascimento" name="" value="" data-error="Data nascimento">
             <label for="nascimento">Data de Nasc.</label>
           </div>
-		  
-          <div class="input-field col s12 m6 l7">
-            <input type="text" class="validate" id="endereco" name="" value="" data-error="Informe o endereço">
-            <label for="endereco">Endereço</label>
-          </div>
-          <div class="input-field col s4 m2 l2">
-            <input type="number" class="validate" id="numero" name="" value="" data-error="Nº">
-            <label for="numero">Nº</label>
-          </div>
-          <div class="input-field col s8 m4 l6">
-            <input type="text" class="validate" id="bairro" name="" value="" data-error="Informe o bairro">
-            <label for="bairro">Bairro</label>
-          </div>
-		  <div class="input-field col s12 m6 l6">
-            <input type="text" class="validate" id="cidade" name="" value="" data-error="Informe a cidade">
-            <label for="cidade">Cidade</label>
-          </div>
-        <div class="input-field col s12 m6 l5">
-            <input type="text" class="validate" id="telefoneb" name="" value="" data-error="Informe o telefone">
-            <label for="telefoneb">Telefone</label>
-          </div>
-		  <div class="input-field col s12 m6 l7">
-            <input type="email" class="validate" id="emailc" name="emailc" value="" data-error="E-mail">
-            <label for="emailc">E-mail</label>
-          </div>
 		</div>
 		  </p>
 		</div>
@@ -163,68 +138,34 @@
 		<div class="modal-content">
       <div class="row">
         <div class="col s12 m12 l12 left">
-		      <h4 class="text">Pesquisar peças</h4>
+		<br>
+		      <h4 class="text center-align">Pesquisar peças</h4>
       </div>
     </div>
 		  
 			<div class="row">
+			<div class="input-field col s12 m6 l6">
+                <input type="text" class="section scrollspy" id="cod" name="cod" value="" data-error="Desconto">
+                <label for="cod">Código de barras</label>
+          </div> 
+		  <div class="input-field col s12 m6 l6">
+                <input type="text" class="section scrollspy" id="fabricante" name="" value="" data-error="Fabricante">
+                <label for="fabricante">Fabricante</label>
+          </div>
     		<div class="input-field col s12 m12 l12">
                 <input type="text" class="validate" id="peca" name="peca" value="" data-error="Por favor, informe o nome da Mãe">
                 <label for="peca">Nome da peça</label>
               </div>
-              <div class="input-field col s12 m12 l12">
-                <textarea id="descricao" class="materialize-textarea" data-length="500"></textarea>
-                <label for="descricao">Descrição da peça</label>
-              </div>
-    		  <div class="input-field col s12 m4 l3">
+    		  <div class="input-field col s12 m6 l6">
     				<select>
     				  <option value="" disabled selected>Escolha o tipo</option>
     				</select>
     				<label>Tipo de Peça</label>
               </div>
-    		  <div class="input-field col s12 m4 l3">
+    		  <div class="input-field col s12 m6 l6">
                 <input type="text" class="validate" id="cor" name="cor" value="" data-error="Por favor, informe o nome do Pai">
                 <label for="cor">Cor predominante</label>
-          </div>
-    		  <div class="input-field col s12 m4 l3">
-                <input type="text" class="section scrollspy" id="fabricante" name="" value="" data-error="Fabricante">
-                <label for="fabricante">Fabricante</label>
-          </div>
-    		  <div class="input-field col s12 m4 l3">
-                <input type="text" class="section scrollspy" id="desconto" name="" value="" data-error="Desconto">
-                <label for="desconto">Desconto</label>
-          </div>
-          <div class="col s12 m12 l12 left">
-           <h5 class="black-text">Forma de pagamento</h5>
-          </div>
-          <div class="input-field">
-            <!--<p class="col s12 m6 l3">
-              <label>
-                <input class="with-gap" name="group1" type="radio" checked />
-                <span>À vista</span>
-              </label>
-            </p>
-            <p class="col s12 m6 l3">
-              <label>
-                <input class="with-gap" name="group1" type="radio" />
-                <span>A prazo</span>
-              </label>
-            </p>
-            <p class="col s12 m6 l3">
-              <label>
-                <input class="with-gap" name="group1" type="radio"  />
-                <span>Cartão Débito</span>
-              </label>
-            </p>-->
-            <p class="col s12 m6 l3">
-              <label>
-                <input class="with-gap" type="radio" />
-                <span>Cartão Crédito</span>
-              </label>
-            </p>
-            
-          </div>
-                    
+			</div>
 		</div>
       
       
